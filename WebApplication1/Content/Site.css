@@ -1,0 +1,119 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+}
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding-bottom: 25px;
+}
+
+.tieude {
+    border-bottom: 1px solid transparent; /* Đặt border-bottom mặc định là transparent */
+    transition: border-bottom 0.3s; /* Thêm hiệu ứng chuyển tiếp cho border-bottom */
+}
+
+    .tieude:hover {
+        border-bottom: 1px solid red; /* Đổi màu border-bottom khi di chuột qua */
+    }
+
+
+.Container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+
+
+
+nav ul li i {
+    margin-left: 5px;
+}
+
+nav ul li.search-container {
+    position: relative;
+}
+
+
+    nav ul li.search-container input {
+        border: 1px solid black;
+        border-radius: 5px;
+        height: 30px;
+        outline: none;
+        padding: 5px 10px;
+    }
+
+    nav ul li.search-container i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 800px;
+    left: 0;
+    top: 100%; /* Đảm bảo dropdown nằm dưới thanh menu */
+    z-index: 1; /* Hiển thị dropdown lên trên các phần tử khác */
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    transform: translateX(-30%); /* Căn chỉnh ngang */
+    margin-top: 25px;
+}
+
+    .dropdown-content .row {
+        display: flex;
+        width: 100%;
+    }
+
+    .dropdown-content .column {
+        width: 20%;
+        padding: 10px;
+        background-color: #ebe6e6;
+    }
+
+        .dropdown-content .column a {
+            display: block;
+            color: black;
+            padding: 10px;
+        }
+
+            .dropdown-content .column a:hover {
+                background-color: #ddd;
+            }
+
+@media screen and (max-width: 600px) {
+    .dropdown-content .column {
+        width: 100%;
+    }
+}
