@@ -120,7 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\XuhuongController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -143,6 +143,31 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\img_index\anh_footer.jpg" />
+    <Content Include="Content\img_index\anh_logo.jpg" />
+    <Content Include="Content\img_index\anh_watchstore.jpg" />
+    <Content Include="Content\img_index\casi_1.jpg" />
+    <Content Include="Content\img_index\co_dien_1.jpg" />
+    <Content Include="Content\img_index\co_dien_2.jpg" />
+    <Content Include="Content\img_index\co_dien_3.jpg" />
+    <Content Include="Content\img_index\DonGian.jpg" />
+    <Content Include="Content\img_index\gioi_thieu_cua_hang.png" />
+    <Content Include="Content\img_index\GMT_master.png" />
+    <Content Include="Content\img_index\hublot.png" />
+    <Content Include="Content\img_index\LichLam.jpg" />
+    <Content Include="Content\img_index\logo_footer.jpg" />
+    <Content Include="Content\img_index\mua_he_1.jpg" />
+    <Content Include="Content\img_index\mua_he_2.jpg" />
+    <Content Include="Content\img_index\mua_he_3.jpg" />
+    <Content Include="Content\img_index\omera.png" />
+    <Content Include="Content\img_index\orient.jpg" />
+    <Content Include="Content\img_index\sang_trong_1.jpg" />
+    <Content Include="Content\img_index\sang_trong_2.jpg" />
+    <Content Include="Content\img_index\sang_trong_3.jpg" />
+    <Content Include="Content\img_index\seiko.jpg" />
+    <Content Include="Content\img_index\shock.jpg" />
+    <Content Include="Content\img_index\TinhTe.jpg" />
+    <Content Include="Content\video_index.webm" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -152,6 +177,8 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\img_index\Casio.jpg.webp" />
+    <Content Include="Content\logo.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -162,6 +189,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -174,7 +202,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Xuhuong\Xuhuong.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
