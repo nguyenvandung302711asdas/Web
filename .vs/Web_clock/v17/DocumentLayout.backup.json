@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Web_Dong_Ho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|C:\\Web_Dong_Ho\\webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|c:\\web_dong_ho\\webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|solutionrelative:webapplication1\\content\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|c:\\web_dong_ho\\webapplication1\\views\\xuhuong\\xuhuong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|C:\\Web_Dong_Ho\\webapplication1\\views\\xuhuong\\xuhuong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB6C1366-147C-4B72-9AAF-98C528056757}|WebApplication1\\Web.csproj|solutionrelative:webapplication1\\views\\xuhuong\\xuhuong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Content\\Site.css",
               "ToolTip": "C:\\Web_Dong_Ho\\WebApplication1\\Content\\Site.css",
               "RelativeToolTip": "WebApplication1\\Content\\Site.css",
-              "ViewState": "AgIAAF0CAAAAAAAAAAAqwGkCAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAqwG8CAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-09-20T14:38:32.417Z",
               "IsPinned": true,
@@ -104,8 +104,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Xuhuong\\Xuhuong.cshtml",
               "ViewState": "AgIAACMDAAAAAAAAAAAqwC0DAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T15:11:19.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T15:11:19.651Z"
             },
             {
               "$type": "Document",
