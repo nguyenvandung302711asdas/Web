@@ -1,4 +1,4 @@
-﻿/* Reset margin, padding, and box-sizing for consistency */
+﻿﻿ /* Reset margin, padding, and box-sizing for consistency */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@
 }
 
 body {
-  
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
 }
@@ -191,7 +190,6 @@ nav ul li.search-container {
     gap: 30px;
     flex-wrap: wrap;
     margin-top: 30px;
-
 }
 
     .body-anh img {

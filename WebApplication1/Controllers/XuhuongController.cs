@@ -13,5 +13,9 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public ActionResult Chi_tiet()
+        {
+            return View();
+        }
     }
 }

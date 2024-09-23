@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 @{
     ViewBag.Title = "Xuhuong";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,23 +8,23 @@
     <!--VIDEO-->
     <div style="display: flex; justify-content: center">
         <video src="https://media.rolex.com/video/upload/c_limit,w_1920/f_auto:video/q_auto:best/v1/rolexcom/new-watches/2024/hub-new-watches/videos/cover/watches-new-watches-2024-hub-cover-autoplay"
-               width="1400px"
+               width="100%"
                autoplay
                muted
                loop></video>
     </div>
     <!--Nhan hang dong ho-->
     <div class="nhan-hang">
-        <img src="~/Content/img_index/casi_1.jpg" />
-        <img src="~/Content/img_index/shock.jpg" />
-        <img src="~/Content/img_index/seiko.jpg" />
-        <img src="~/Content/img_index/orient.jpg" />
-        <img src="~/Content/img_index/omera.png" />
-        <img src="~/Content/img_index/hublot.png" />
+        <img style="width:15%" src="~/Content/img_index/casi_1.jpg" />
+        <img style="width:15%" src="~/Content/img_index/shock.jpg" />
+        <img style="width:15%" src="~/Content/img_index/seiko.jpg" />
+        <img style="width:15%" src="~/Content/img_index/orient.jpg" />
+        <img style="width:15%" src="~/Content/img_index/omera.png" />
+        <img style="width:15%" src="~/Content/img_index/hublot.png" />
     </div>
     <!--Gu nao cung co-->
     <div>
-        <p class="gunaocungco" style="width: 1500px; margin-top: 50px">
+        <p class="gunaocungco" style="width:100%; margin-top: 50px">
             Gu nào cũng có
         </p>
     </div>
@@ -50,7 +50,7 @@
         <div>
             <!--gu nao cung co -- co dien-->
             <div>
-                <p class="gunaocungco" style="width: 1500px; margin-top: 50px">
+                <p class="gunaocungco" style="width: 100%; margin-top: 50px">
                     Cổ điển
                 </p>
             </div>
@@ -764,7 +764,7 @@
                             </div>
                             <!-- Add more slider-item divs as needed -->
                             <div class="slider-item">
-                                  <img src="~/Content/img_index/mua_he_1.jpg" alt="" />
+                                <img src="~/Content/img_index/mua_he_1.jpg" alt="" />
                                 <div class="slider-text">
                                     <li>Product 1</li>
                                     <li>Description 1</li>
@@ -792,49 +792,63 @@
         </div>
     </section>
     <!--Cua hang dong ho- footer-->
-    <div class="strwatchst1">
-        <div class="strwatchst1__r">
-            <figure class="figure__hover wow zoomIn">
-                <img class="lazy after-lazy"
-                     alt="WatchStore.vn"
-                     width="500"
-                     height="400"
-                     src="~/Content/img_index/anh_footer.jpg" />
-            </figure>
-        </div>
-        <div class="strwatchst1__l">
-            <div class="strwatchsr1__logo">
-                <img class="lazy after-lazy"
-                     alt="WatchStore.vn"
-                     width="160px"
-                     height="120px"
-                     src="~/Content/img_index/anh_watchstore.jpg" />
-            </div>
-            <div class="tong" style="margin-top: -80px">
-                <div class="strwatchsr1__title" style="background-color: black">
-                    Cửa hàng đồng hồ chính hãng
+    <div class=" container-fluid strwatchst1 ">
+        <div class="row">
+            <div class="col-sm-12">
+
+
+                <div class="strwatchst1__r">
+                    <figure class="figure__hover wow zoomIn">
+                        <img class="lazy after-lazy"
+                             alt="WatchStore.vn"
+                             width="500"
+                             height="400"
+                             src="~/Content/img_index/anh_footer.jpg" />
+                    </figure>
                 </div>
-                <div class="strwatchsr1__des" style="background-color: black">
-                    <p style="background-color: black">
-                        Được thành lập vào năm 2020, trải qua 4 năm hoạt động và phát
-                        triển, WatchStore trở thành đại lý ủy quyền cho rất nhiều thương
-                        hiệu đến từ Nhật Bản và Thụy Sỹ chuyên bán đồng hồ chính
-                        hãng.<br />&nbsp;
-                    </p>
-                    <p style="background-color: black">
-                        Chính sách bảo hành 5 năm cùng với các chương trình giảm giá tốt
-                        sẽ giúp bạn mua sắm dễ dàng. Với đội ngũ nhân viên tận tình, am
-                        hiểu về đồng hồ, Tiệm Đồng Hồ WatchStore rất vui được phục vụ
-                        quý khách. WatchStore hứa sẽ hoàn thiện hơn mỗi ngày để mang đến
-                        trải nghiệm tuyệt vời nhất có thể cho mọi khách hàng. Chúc quý
-                        khách mọi điều tốt lành!
-                    </p>
+                <div class="strwatchst1__l">
+                    <div class="strwatchsr1__logo">
+                        <img class="lazy after-lazy"
+                             alt="WatchStore.vn"
+                             width="160px"
+                             height="120px"
+                             src="~/Content/img_index/anh_watchstore.jpg" />
+                    </div>
+                    <div class="tong" style="margin-top: -80px">
+                        <div class="strwatchsr1__title" style="background-color: black">
+                            Cửa hàng đồng hồ chính hãng
+                        </div>
+                        <div class="strwatchsr1__des" style="background-color: black">
+                            <p style="background-color: black">
+                                Được thành lập vào năm 2020, trải qua 4 năm hoạt động và phát
+                                triển, WatchStore trở thành đại lý ủy quyền cho rất nhiều thương
+                                hiệu đến từ Nhật Bản và Thụy Sỹ chuyên bán đồng hồ chính
+                                hãng.<br />&nbsp;
+                            </p>
+                            <p style="background-color: black">
+                                Chính sách bảo hành 5 năm cùng với các chương trình giảm giá tốt
+                                sẽ giúp bạn mua sắm dễ dàng. Với đội ngũ nhân viên tận tình, am
+                                hiểu về đồng hồ, Tiệm Đồng Hồ WatchStore rất vui được phục vụ
+                                quý khách. WatchStore hứa sẽ hoàn thiện hơn mỗi ngày để mang đến
+                                trải nghiệm tuyệt vời nhất có thể cho mọi khách hàng. Chúc quý
+                                khách mọi điều tốt lành!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="view__more3" style="background-color: rgb(0, 0, 0)">
+                        <a title="xem thêm">Xem thêm</a>
+                    </div>
                 </div>
-            </div>
-            <div class="view__more3" style="background-color: rgb(0, 0, 0)">
-                <a title="xem thêm">Xem thêm</a>
             </div>
         </div>
     </div>
-</article>
 
+    <button id="myButton">Hiển thị trang chi tiết</button>
+
+    <script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        window.location.href = '@Url.Action("Chi_tiet", "Xuhuong")'; // Điều hướng tới action Chi_tiet trong HomeController
+    });
+    </script>
+
+</article>
